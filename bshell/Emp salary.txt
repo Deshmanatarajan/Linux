@@ -1,0 +1,20 @@
+echo "Deshma International [p] Ltd."
+echo "No.13, Bharathi Street, Puduchery-10"
+echo "------------------------------------"
+echo "Employee Payroll System"
+echo "------------------------------------"
+echo "Enter the Enployee No:"
+read a 
+echo "Enter the Employee Name:"
+read b 
+echo "Enter the Salary:"
+read c 
+echo "Report"
+d=`expr $c \* 20 / 100`
+echo "Bonus 20% from Salary: $d"
+e=`expr $c + $d`
+echo "Grass Pay: $e"
+f=`expr $c \* 5 / 100`
+echo "Expenditure 5% from Salary: $f"
+g=`expr $e - $f`
+echo "Net Pay: $g"
