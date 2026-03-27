@@ -1,0 +1,8 @@
+echo "Circle Program"
+echo "------------------"
+echo "Enter r"
+read r
+p=`expr 2 \* 3 \* $r`
+a=`expr 3 \* $r \* $r`
+echo "perimeter = $p"
+echo "Area = $a"
